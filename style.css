@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    padding: 1rem;
+    display: flex;
+    gap: 8rem ;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+}
+.container{
+    background-color: black;
+    color: white;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: darkred;
+}
+.center{
+    font-family: 'Ubuntu', sans-serif;
+}
+span{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 5px;
+    padding: 1px;
+    margin-left: -10px;
+    margin-top: -8px;
+}
+.ft{
+    display: flex;
+    gap:2rem ;
+    padding: 1rem 2rem;
+    font-size: 15px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+.div1 h1{
+    padding: 0 2rem;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+}
+.div3 p{
+    padding: 1rem;
+
+}
+.div4{
+    display: flex;
+    flex-direction: column;
+
+}
+.div4 p{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 1rem;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+h1{
+    padding: 0 1rem;
+    font-size: 18px;
+}
+h1:hover{
+    color: aqua;
+}
+.main-p{
+    padding: 2rem;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+}
+section:hover{
+    color: chartreuse;
+}
